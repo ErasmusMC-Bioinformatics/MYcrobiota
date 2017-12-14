@@ -1,0 +1,11 @@
+libraries:
+    - name: Mothur MiSeq SOP reference data
+      files:
+          - url: https://zenodo.org/record/800651/files/HMP_MOCK.v35.fasta
+            file_type: "fasta"
+          - url: https://zenodo.org/record/800651/files/silva.v4.fasta
+            file_type: "fasta"
+          - url: https://zenodo.org/record/800651/files/trainset9_032012.pds.fasta
+            file_type: "fasta"
+          - url: https://zenodo.org/record/800651/files/trainset9_032012.pds.tax
+            file_type: "mothur.seq.taxonomy"

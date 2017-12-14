@@ -1,0 +1,39 @@
+---
+api_key: admin
+galaxy_instance: http://localhost:8080
+tool_shed_url: https://toolshed.g2.bx.psu.edu/
+install_resolver_dependencies: true
+install_tool_dependencies: true
+tools:
+  - name: data_manager_mothur_toolsuite
+    owner: iuc 
+  - name: mycrobiota
+    owner: erasmus-medical-center
+    tool_panel_section_label: "MYcrobiota"
+  - name: extract_element_from_collection
+    owner: erasmus-medical-center
+    tool_panel_section_label: "Collection Operations"
+  - name: ireport
+    owner: saskia-hiltemann
+    tool_panel_section_label: "Reporting"
+  - name: transpose
+    owner: jmsong
+    tool_panel_section_label: "Text Manipulation"
+  - name: regex_find_replace
+    owner: jjohnson
+    tool_panel_section_label: "Text Manipulation"
+  - name: xy_plot
+    owner: devteam
+    tool_panel_section_label: "Visualisation"
+  - name: collapse_collections
+    owner: nml
+    tool_panel_section_label: "Collection Operations"
+  - name: newick_display
+    owner: dcorreia
+    tool_panel_section_label: "Visualisation"
+  - name: krona_text
+    owner: saskia-hiltemann
+    tool_panel_section_label: "Visualisation"
+  - name: suite_mothur
+    owner: iuc
+    tool_panel_section_label: "Mothur"
